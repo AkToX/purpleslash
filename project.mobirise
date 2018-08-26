@@ -637,6 +637,7 @@
           "_name": "gallery2",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "r1L2IqzGbf",
+          "_anchor": "gallery2-x",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -668,12 +669,25 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/japan-hoodie-blue-wave-535x649.png",
+                "thumb": "@PROJECT_PATH@/assets/images/japan-hoodie-blue-wave-535x649-535x649.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Hoodie Blue Wave",
+                "active": false
+              },
+              {
+                "tags": "JAPAN",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/japan-hoodie-kitsune-2-535x656.png",
                 "thumb": "@PROJECT_PATH@/assets/images/japan-hoodie-kitsune-2-535x656-535x656.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie Kitsune",
                 "active": false
               },
               {
@@ -686,7 +700,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie JapFont Noir",
                 "active": false
               },
               {
@@ -699,7 +713,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie JapFont Blanc",
                 "active": false
               },
               {
@@ -712,7 +726,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Tee Shirt Japan Blanc",
                 "active": false
               },
               {
@@ -725,7 +739,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Tee Shirt Japan Noir",
                 "active": false
               },
               {
@@ -738,7 +752,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Tee Shirt Wave",
                 "active": false
               },
               {
@@ -751,7 +765,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie Square Noir",
                 "active": false
               },
               {
@@ -764,7 +778,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie Square Blanc",
                 "active": false
               },
               {
@@ -777,7 +791,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie Noir",
                 "active": false
               },
               {
@@ -790,7 +804,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie Blanc",
                 "active": false
               },
               {
@@ -803,7 +817,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Tee Shirt Pxrplx Noir",
                 "active": false
               },
               {
@@ -816,7 +830,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Tee Shirt Pxrplx Blanc",
                 "active": false
               },
               {
@@ -829,7 +843,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie WeekOne Sky Blue",
                 "active": false
               },
               {
@@ -842,7 +856,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie WeekOne Blanc",
                 "active": false
               },
               {
@@ -855,7 +869,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie WeekOne Noir",
                 "active": false
               },
               {
@@ -868,7 +882,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie WeekOne Rouge",
                 "active": false
               },
               {
@@ -881,7 +895,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie WeekOne Magenta",
                 "active": false
               },
               {
@@ -894,20 +908,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
-                "active": false
-              },
-              {
-                "tags": "JAPAN",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/japan-hoodie-blue-wave-535x649.png",
-                "thumb": "@PROJECT_PATH@/assets/images/japan-hoodie-blue-wave-535x649-535x649.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie WeekOne Violet",
                 "active": false
               },
               {
@@ -920,12 +921,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Tapez la légende ici",
+                "caption": "Hoodie WeekOne Oxford Blue",
                 "active": false
               }
             ]
-          },
-          "_anchor": "gallery2-x"
+          }
         },
         {
           "_styles": {
