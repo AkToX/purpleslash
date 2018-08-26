@@ -1792,6 +1792,9 @@ body {
 .cid-qYRXwrKJUm .card-img {
   color: #ffffff;
 }
+.cid-qYRXwrKJUm .mbr-text I {
+  color: #ffffff;
+}
 .cid-qYS73GWEgy {
   padding-top: 30px;
   padding-bottom: 15px;
@@ -1799,6 +1802,7 @@ body {
 }
 .cid-qYS73GWEgy .mbr-text {
   color: #cccccc;
+  text-align: center;
 }
 .cid-qYS73GWEgy h4 {
   text-align: center;
